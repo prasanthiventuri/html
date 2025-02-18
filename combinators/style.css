@@ -1,0 +1,60 @@
+.container .box p{
+    padding: 20px;
+    background-color: blueviolet;
+    color: black;
+}
+
+.secton .content p{
+    background-color: greenyellow;
+    color: black;
+    margin: 15px;
+
+}
+.card .card-body p{
+    border: 2px solid red;
+    background-color: lightsalmon;
+    color: black;
+
+}
+.navbar ul{
+    background-color: lightskyblue;
+
+
+}
+.header >h1
+{
+    background-color: cyan;
+    color: brown;
+    margin-top: 20px;
+
+}
+.footer1 span{
+    background-color: cornflowerblue;
+    color: blue;
+    padding: 10px;
+
+}
+.main-content .content p {
+    background-color: greenyellow;
+    color: black;
+    border: 1px solid black;
+
+}
+.nav ul li{
+    margin-right: 15px;
+    background-color: lightpink;
+    padding: 5px;
+    color: darkblue;
+
+}
+
+.gallery div{
+    background-color: lightslategray;
+}
+.container .footer-2 span{
+    border: 5px solid red;
+    padding: 4px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    
+}

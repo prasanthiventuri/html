@@ -1,0 +1,10 @@
+"DNS"
+       The Domain Name System (DNS) is the phonebook of the Internet.Humans access information online through domain names, 
+like nytimes.com or espn.com.Web browsers interact through Internet Protocol (IP) addresses.DNS translates domain names to IP addresses so 
+browsers can load Internet resources.
+
+IP address
+
+An Internet Protocol (IP) address is a series of numbers that identifies the physical location of a particular device on the Internet network.
+ An IP address looks something like this: 74.125.19.147 Since a domain name can have one or more associated IP addresses, Google doesn't support email and web publishing configurations using IP addresses alone.
+
