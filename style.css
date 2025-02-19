@@ -1,61 +1,79 @@
-.container{
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-top: 50px;
+}
+.box-px{
+    width: 200px;
+    height: 100px;
+    background-color: chartreuse;
+}
+.parent-percent{
+    width: 50vw;
+    height: 200px;
     background-color: black;
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
 }
-.container span{
-    padding-right: 40px;
-}
-.bi{
-    font-size: 20px;
+.child-percent{
+    width:50%;
+    background-color: rgb(27, 226, 226);
 }
 
-.zoom{
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    text-align: center;
-    padding-top: 20px;
-    border-radius: 20px;
+.rem-paragraph{
+    font-size: 2rem;
 }
-.zoom2 p{
-    display: inline-block;
+.parent-em{
+    font-size: 16px;
 }
-.zoom2{
-    display: flex;
-    justify-content: center;
+.child-em{
+    font-size: 1.5em;
 }
-.zoom2 .bi{
-    font-size: 15px;
-    margin: 10px;
+.box-vw{
+    background-color: rgb(43, 33, 33);
+    width: 50vw;
 }
-.zoom21{
-    background-color: lime;
+.box-vh{
+    background-color: rgb(151, 149, 142);
+    height: 25vh;
 }
-.item-7{
-    background-color: grey;
+.containervmin{
+    border: 2px solid ;
+    width: 20vw;
 }
-.bi-three-dots{
-    border: 2px solid white;
-    border-radius: 50%;
-    padding: 2px;
+.square-vmin{
+   
+    background-color: crimson;
+    width: 20vmin;
+    height: 20vmin;
 }
-.zoom22{
-    width: 150px;
-    background-color: red;
-    color: white;
+.square-vmax{
+    background-color: darkorchid;
+    width: 20vmax;
+    height: 20vmax;
 }
-.task-3{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: black;
-    color: white;
+.parent-relative{
+    border: 2px solid;
+    position: relative;
+    width: 400px;
+    height: 300px;
 }
-
-h2{
-    color: rgb(133, 42, 57);
+.child-absolute{
+    background-color: rgb(179, 153, 135);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+}
+.parent-font{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(184, 192, 192);
+    font-size: 50px;
+}
+.child-fon{
+    font-size: inherit;
 }
